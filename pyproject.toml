@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "voxel_space_render"
+version = "0.1.0"
+description = "Python Voxel Space Render with Pygame, Numpy, Numba"
+authors = ["Sadbot <semseriou@gmail.com>"]
+
+build = 'build.py'
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.10"
+pygame = "^2.1.0"
+numba = "^0.54.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
